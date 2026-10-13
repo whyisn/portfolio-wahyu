@@ -1,0 +1,27 @@
+# ANTIGRAVITY AI IDE - PROJECT INSTRUCTIONS & DESIGN SYSTEM
+
+[CONTEXT_REFERENCE]
+- Read and adhere to the context, profile, and project metadata defined in `CONTEXT.md`.
+- Maintain strict alignment with Wahyu Isnan's identity as a Network & Cyber Security Engineer with Software Development capabilities.
+
+[TECH_STACK]
+- Framework: Next.js (App Router)
+- Styling: Tailwind CSS
+- Icons: Lucide React (`lucide-react`)
+- Language: JavaScript (ES6+)
+
+[DESIGN_THEME_&_AESTHETICS]
+- Theme Style: Minimalist Dark Tech / Cyber Security Aesthetic (inspired by terminal CLI & network telemetry dashboards).
+- Background Colors: Primary `#050811`, Cards/Containers `#0b1120` or `#080d1a`, Borders `#1f2937` / `#374151`.
+- Accent Colors: Cyber Blue (`#3b82f6`), Neon Cyan (`#06b6d4`), Emerald Green (`#10b981`), Amber Warning (`#f59e0b`).
+- Typography & Details:
+  - Headers: Clean Sans-Serif font with bold tracking.
+  - Labels & Code snippets: Monospace font (`font-mono`).
+  - Visual Accents: Monospace CLI paths (e.g., `wahyu@sec:~$`), network protocol badges, system status indicators, terminal headers with window controls.
+
+[CODE_GENERATION_RULES]
+- Always generate modular React components inside the `components/` directory.
+- Keep project raw data isolated inside `data/projects.js` or `data/experience.js`.
+- Ensure all layout elements are fully responsive for mobile, tablet, and desktop screens.
+- Use explicit visual feedback, micro-hover interactions, and clean border glows (`cyber-border`, `cyber-glow-blue`).
+- Avoid unnecessary external dependencies beyond `lucide-react` and standard Tailwind CSS utilities.

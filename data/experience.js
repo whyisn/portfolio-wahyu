@@ -1,0 +1,185 @@
+/**
+ * Professional Experiences, Industrial Milestones, Certifications, and Grants.
+ * Data source for ExperienceTimeline and Credentials modules.
+ */
+
+export const CERTIFICATIONS = [
+  {
+    id: "mtcna",
+    title: "MikroTik Certified Network Associate (MTCNA)",
+    issuer: "MikroTik",
+    credentialId: "2407NA7141",
+    issueDate: "2024",
+    badgeType: "SECURITY-NET",
+    accent: "blue",
+    competencies: [
+      "RouterOS v7 Configuration & Terminal CLI",
+      "IPv4 Subnetting, ARP & Static/Dynamic Routing",
+      "Firewall Filter Rules, NAT & Mangle Traffic Inspection",
+      "Packet Capture, Torch & Bandwidth Queues (PCQ)",
+      "Wireless & VPN Tunnels (PPTP, SSTP, L2TP, WireGuard)",
+    ],
+    verifyUrl: "https://mikrotik.com/training/certificates/2407NA7141",
+  },
+  {
+    id: "bangkit-gcp",
+    title: "Cloud Computing Track Graduate",
+    issuer: "Bangkit Academy (Google, Tokopedia, Gojek, Traveloka)",
+    credentialId: "C282B4KY4456",
+    issueDate: "2024",
+    badgeType: "CLOUD-ARCH",
+    accent: "cyan",
+    competencies: [
+      "GCP Cloud Architecture & Core Infrastructure",
+      "Cloud Run Serverless & Docker Microservices",
+      "Cloud Storage (GCS) & IAM Permission Topologies",
+      "RESTful API Engineering & CI/CD Pipelines",
+      "Deploying and Serving Machine Learning Models",
+    ],
+    verifyUrl: "https://bangkit.academy",
+  },
+  {
+    id: "kemnaker-cybersec",
+    title: "Cyber Security: Network Security Fundamentals",
+    issuer: "TalentHub by Kemnaker RI",
+    credentialId: "B-1/1429/PK.00/VIII/2024",
+    issueDate: "2024",
+    badgeType: "CYBER-DEFENSE",
+    accent: "emerald",
+    competencies: [
+      "Enterprise Network Security Architecture",
+      "Threat Identification & Attack Vector Modeling",
+      "Vulnerability Assessment & Penetration Basics",
+      "Incident Response & Network Defense Protocols",
+      "Security Audit Logging & Access Control Policies",
+    ],
+    verifyUrl: "https://kemnaker.go.id",
+  },
+];
+
+export const EXPERIENCES = [
+  {
+    id: "kemenkumham",
+    period: "Sep 2026 – Present",
+    role: "Computer Systems Intern",
+    company: "Kanwil Kemenkumham West Sumatra",
+    location: "Padang, West Sumatra",
+    type: "Public Sector IT Infrastructure",
+    isCurrent: true,
+    highlights: [
+      "Monitored and maintained regional network infrastructure, intranet nodes, and workstation clusters across administrative divisions.",
+      "Diagnosed and resolved hardware faults, routing issues, and operating system incidents with rapid MTTR (Mean Time to Repair).",
+      "Supervised technical record archives and documentation for institutional digital assets and administrative IT operations.",
+    ],
+    tags: ["Network Infrastructure", "System Administration", "IT Support", "Hardware Diagnostics"],
+  },
+  {
+    id: "kalam-kudus",
+    period: "Mar 2026 – Sep 2026",
+    role: "Coding & AI Teacher",
+    company: "Sekolah Kristen Kalam Kudus Padang",
+    location: "Padang, West Sumatra",
+    type: "Technology Education",
+    isCurrent: false,
+    highlights: [
+      "Engineered and delivered structured Coding and Artificial Intelligence curricula for 100+ junior and senior high school students.",
+      "Conducted hands-on Python programming labs to teach algorithm design, data structures, and problem-solving methodologies.",
+      "Introduced applied Machine Learning concepts, data classification, and supervised learning basics through interactive exercises.",
+    ],
+    tags: ["Python", "Machine Learning", "Curriculum Design", "STEM Pedagogy"],
+  },
+  {
+    id: "pln-icon-plus",
+    period: "Jul 2025 – Nov 2025",
+    role: "Network & IT Intern (Co-Project Team Leader)",
+    company: "PT PLN Icon Plus KP Sumbar",
+    location: "Padang, West Sumatra",
+    type: "Telecommunications & Energy IT",
+    isCurrent: false,
+    highlights: [
+      "Served as Co-Project Team Leader managing retail activation workflow execution, dispatch schedules, and quality assurance.",
+      "Architected and developed the AE•PTL Queue Application using Flutter & Supabase, digitizing tracking between Account Executives and Project Team Leaders.",
+      "Executed Fiber to the Home (FTTH) infrastructure installations, testing OLT nodes, FAT/ODP enclosures, drop cables, optical power levels, and ONT commissioning.",
+    ],
+    tags: ["FTTH Architecture", "Flutter & Supabase", "Project Leadership", "Optical Network"],
+  },
+  {
+    id: "unp-robotics",
+    period: "Jan 2023 – Mar 2024",
+    role: "Robotics Team Programmer (KRSBI Beroda)",
+    company: "UNP Robotics Activity Unit",
+    location: "Universitas Negeri Padang",
+    type: "Autonomous Robotics Engineering",
+    isCurrent: false,
+    highlights: [
+      "Engineered kinematic motion control algorithms and real-time response software for Wheeled Soccer Robots competing in national KRSBI contests.",
+      "Integrated sensor streams (compass, rotary encoders, vision) to achieve precision localization and tactical path planning.",
+      "Collaborated across mechanical and hardware engineering sub-teams to debug embedded microcontrollers and motor driver circuits.",
+    ],
+    tags: ["C++", "Python", "Kinematics Control", "Embedded Systems", "Sensors"],
+  },
+  {
+    id: "bem-ft-unp",
+    period: "Mar 2023 – Mar 2024",
+    role: "HRD (PSDM) Expert Staff",
+    company: "Student Executive Board (BEM FT UNP)",
+    location: "Faculty of Engineering, UNP",
+    type: "Student Leadership & Organization",
+    isCurrent: false,
+    highlights: [
+      "Spearheaded leadership training and internal capacity development workshops for engineering student cadres.",
+      "Organized cross-departmental coordination initiatives to boost organizational efficiency and member engagement.",
+    ],
+    tags: ["Leadership", "Organizational Management", "Talent Development"],
+  },
+  {
+    id: "pramuka-koto-tangah",
+    period: "Jul 2021 – Jul 2023",
+    role: "Secretary",
+    company: "Scout Sub-District Work Council Koto Tangah",
+    location: "Padang, West Sumatra",
+    type: "Youth Leadership Organization",
+    isCurrent: false,
+    highlights: [
+      "Administered official documentation, digital archiving, correspondence workflows, and meeting minutes for sub-district scout activities.",
+    ],
+    tags: ["Administration", "Documentation", "Public Affairs"],
+  },
+  {
+    id: "osis-sman13",
+    period: "Sep 2020 – Jan 2022",
+    role: "Head of State Defense Department",
+    company: "OSIS SMAN 13 Padang",
+    location: "Padang, West Sumatra",
+    type: "Student Government",
+    isCurrent: false,
+    highlights: [
+      "Led student discipline and civic responsibility programs across the school body.",
+    ],
+    tags: ["Discipline & Leadership", "Civic Programs"],
+  },
+];
+
+export const ACHIEVEMENTS = [
+  {
+    title: "Grant Recipient & Venture Leader",
+    competition: "Entrepreneurial Student Development Program (P2MW) 2024",
+    issuer: "Kemendikbudristek RI",
+    year: "2024",
+    description: "Awarded national venture development grant for a technology-driven entrepreneurship initiative after rigorous institutional review.",
+  },
+  {
+    title: "Participant & Prototyper",
+    competition: "GDSC Hackfest Hackathon 2024",
+    issuer: "Google Developer Student Clubs",
+    year: "2024",
+    description: "Engineered and shipped a functional software solution addressing community sustainability challenges within 48-hour sprint constraints.",
+  },
+  {
+    title: "Participant & Solution Architect",
+    competition: "Firetech Unand Hackathon 2024",
+    issuer: "Universitas Andalas",
+    year: "2024",
+    description: "Developed and pitched a technological innovation prototype designed to solve real-world industrial and operational bottlenecks.",
+  },
+];
